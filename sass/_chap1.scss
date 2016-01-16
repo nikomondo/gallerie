@@ -1,0 +1,25 @@
+#gallerie {
+    margin: 0 auto;
+    width: 1000px;
+    height: 535px;
+    position: relative;
+    
+    #ruban {
+         position: absolute;
+         top: 0;
+         left: 0;
+   width: 200px;
+            img {
+                display: block;
+                margin: 0;
+                padding: 0;
+                cursor: pointer;
+            }  
+    }
+    
+    #ecran{
+       position: absolute;
+       top:0;
+       right: 0;
+    }
+}
