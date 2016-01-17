@@ -24,5 +24,8 @@ ecran.attr('id','ecran')
          img.attr("height","133")
          ruban.append(img)
     });   
-   } 
-    
+var img =   $('<img>') 
+img.attr("id","image")
+img.attr("src","holder.png")
+ecran.append(img)   
+ }

@@ -1,10 +1,16 @@
+
+body {
+    background-color: lightgrey;
+}
+
 #gallerie {
     margin: 0 auto;
     width: 1000px;
     height: 535px;
     position: relative;
+   
+   #ruban {
     
-    #ruban {
          position: absolute;
          top: 0;
          left: 0;
@@ -22,4 +28,6 @@
        top:0;
        right: 0;
     }
-}
+   }   
+    
+    
